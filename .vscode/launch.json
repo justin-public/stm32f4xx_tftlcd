@@ -1,0 +1,14 @@
+{
+    "configurations": [
+    {
+        "cwd": "${workspaceFolder}",
+        "executable": "./build/stm32f4xx_tftlcd_update.elf",
+        "name": "Debug with ST-Link",
+        "request": "launch",
+        "type": "cortex-debug",
+        "runToEntryPoint": "main",
+        "showDevDebugOutput": "none",
+        "servertype": "stlink"
+    }
+    ]
+}

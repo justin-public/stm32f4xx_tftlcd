@@ -1,0 +1,13 @@
+{
+    "cmake.configureArgs": [
+        "-DARM_TOOLCHAIN_DIR=D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin",
+        "-DCMAKE_MAKE_PROGRAM=D:/tools/build_tools/xpack-windows-build-tools-4.4.1-3-win32-x64/bin/make.exe"
+    ],
+    "cmake.generator": "Unix Makefiles",
+    "cortex-debug.armToolchainPath": "D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin",
+    "files.associations": {
+        "*.cmake": "c",
+        "gpio.h": "c",
+        "stm32f4xx_hal_sram.h": "c"
+    }
+}
