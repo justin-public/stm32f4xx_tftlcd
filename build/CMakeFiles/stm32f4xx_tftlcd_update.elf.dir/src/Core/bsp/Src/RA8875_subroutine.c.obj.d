@@ -1,5 +1,5 @@
-CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_tft_lcd.c.obj: \
- D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_tft_lcd.c \
+CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/RA8875_subroutine.c.obj: \
+ D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/RA8875_subroutine.c \
  D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/bsp.h \
  D:/work_code/stm32f4xx_tftlcd_update/src/Core/Inc/main.h \
  D:/work_code/stm32f4xx_tftlcd_update/src/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -68,4 +68,5 @@ CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_tft_lcd.c.obj: \
  D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_timer.h \
  D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_tft_lcd.h \
  D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_led.h \
- D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_ra8875.h
+ D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/RA8875.h \
+ D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/RA8875_subroutine.h

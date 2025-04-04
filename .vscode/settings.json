@@ -8,6 +8,10 @@
     "files.associations": {
         "*.cmake": "c",
         "gpio.h": "c",
-        "stm32f4xx_hal_sram.h": "c"
+        "stm32f4xx_hal_sram.h": "c",
+        "bsp_ra8875_port.h": "c",
+        "fonts.h": "c",
+        "bsp_ra8875.h": "c",
+        "xutility": "c"
     }
 }

@@ -153,24 +153,10 @@ CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/Src/system_stm32f4xx.c.s: cm
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/Src/system_stm32f4xx.c.s"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:/work_code/stm32f4xx_tftlcd_update/src/Core/Src/system_stm32f4xx.c -o CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/Src/system_stm32f4xx.c.s
 
-CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.obj: CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/flags.make
-CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.obj: D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/LCD_RA8875.c
-CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.obj: CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd_update/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.obj"
-	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.obj -MF CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.obj -c D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/LCD_RA8875.c
-
-CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.i"
-	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/LCD_RA8875.c > CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.i
-
-CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.s"
-	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/LCD_RA8875.c -o CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.s
-
 CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_led.c.obj: CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/flags.make
 CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_led.c.obj: D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_led.c
 CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_led.c.obj: CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd_update/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_led.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd_update/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_led.c.obj"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_led.c.obj -MF CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_led.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_led.c.obj -c D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_led.c
 
 CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_led.c.i: cmake_force
@@ -180,6 +166,20 @@ CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_led.c.i: cmake_f
 CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_led.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_led.c.s"
 	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_led.c -o CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_led.c.s
+
+CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_ra8875.c.obj: CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/flags.make
+CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_ra8875.c.obj: D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_ra8875.c
+CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_ra8875.c.obj: CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/work_code/stm32f4xx_tftlcd_update/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_ra8875.c.obj"
+	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_ra8875.c.obj -MF CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_ra8875.c.obj.d -o CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_ra8875.c.obj -c D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_ra8875.c
+
+CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_ra8875.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_ra8875.c.i"
+	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_ra8875.c > CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_ra8875.c.i
+
+CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_ra8875.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_ra8875.c.s"
+	D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_ra8875.c -o CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_ra8875.c.s
 
 CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_tft_lcd.c.obj: CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/flags.make
 CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_tft_lcd.c.obj: D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_tft_lcd.c
@@ -454,8 +454,8 @@ stm32f4xx_tftlcd_update_elf_OBJECTS = \
 "CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/Src/syscalls.c.obj" \
 "CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/Src/sysmem.c.obj" \
 "CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/Src/system_stm32f4xx.c.obj" \
-"CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.obj" \
 "CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_led.c.obj" \
+"CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_ra8875.c.obj" \
 "CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_tft_lcd.c.obj" \
 "CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_timer.c.obj" \
 "CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/bsp.c.obj" \
@@ -485,8 +485,8 @@ stm32f4xx_tftlcd_update.elf: CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core
 stm32f4xx_tftlcd_update.elf: CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/Src/syscalls.c.obj
 stm32f4xx_tftlcd_update.elf: CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/Src/sysmem.c.obj
 stm32f4xx_tftlcd_update.elf: CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/Src/system_stm32f4xx.c.obj
-stm32f4xx_tftlcd_update.elf: CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.obj
 stm32f4xx_tftlcd_update.elf: CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_led.c.obj
+stm32f4xx_tftlcd_update.elf: CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_ra8875.c.obj
 stm32f4xx_tftlcd_update.elf: CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_tft_lcd.c.obj
 stm32f4xx_tftlcd_update.elf: CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_timer.c.obj
 stm32f4xx_tftlcd_update.elf: CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/bsp.c.obj

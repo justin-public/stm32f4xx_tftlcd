@@ -4,8 +4,8 @@
 CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/Src/main.c.obj: D:/work_code/stm32f4xx_tftlcd_update/src/Core/Src/main.c \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/Inc/main.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/Inc/stm32f4xx_hal_conf.h \
-  D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/LCD_RA8875.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_led.h \
+  D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_ra8875.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_tft_lcd.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_timer.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/bsp.h \
@@ -229,11 +229,11 @@ CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/Src/system_stm32f4xx.c.obj: 
   D:/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/features.h \
   D:/tools/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
 
-CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.obj: D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/LCD_RA8875.c \
+CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_led.c.obj: D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_led.c \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/Inc/main.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/Inc/stm32f4xx_hal_conf.h \
-  D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/LCD_RA8875.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_led.h \
+  D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_ra8875.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_tft_lcd.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_timer.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/bsp.h \
@@ -299,13 +299,14 @@ CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.obj: D:
   D:/tools/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   D:/tools/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
 
-CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_led.c.obj: D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_led.c \
+CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_ra8875.c.obj: D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_ra8875.c \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/Inc/main.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/Inc/stm32f4xx_hal_conf.h \
-  D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/LCD_RA8875.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_led.h \
+  D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_ra8875.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_tft_lcd.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_timer.h \
+  D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/fonts.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/bsp.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
@@ -372,8 +373,8 @@ CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_led.c.obj: D:/wo
 CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_tft_lcd.c.obj: D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_tft_lcd.c \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/Inc/main.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/Inc/stm32f4xx_hal_conf.h \
-  D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/LCD_RA8875.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_led.h \
+  D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_ra8875.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_tft_lcd.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_timer.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/bsp.h \
@@ -442,8 +443,8 @@ CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_tft_lcd.c.obj: D
 CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_timer.c.obj: D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_timer.c \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/Inc/main.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/Inc/stm32f4xx_hal_conf.h \
-  D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/LCD_RA8875.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_led.h \
+  D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_ra8875.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_tft_lcd.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_timer.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/bsp.h \
@@ -512,8 +513,8 @@ CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_timer.c.obj: D:/
 CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/bsp.c.obj: D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/bsp.c \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/Inc/main.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/Inc/stm32f4xx_hal_conf.h \
-  D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/LCD_RA8875.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_led.h \
+  D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_ra8875.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_tft_lcd.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_timer.h \
   D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/bsp.h \
@@ -1149,11 +1150,19 @@ D:/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/ieeefp.h:
 
 D:/work_code/stm32f4xx_tftlcd_update/src/Core/Inc/main.h:
 
-D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/LCD_RA8875.h:
-
 D:/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_types.h:
 
 D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_timer.h:
+
+D:/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/strings.h:
+
+D:/work_code/stm32f4xx_tftlcd_update/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c:
+
+D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/bsp.c:
+
+D:/work_code/stm32f4xx_tftlcd_update/src/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h:
+
+D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_ra8875.h:
 
 D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_led.h:
 
@@ -1192,14 +1201,6 @@ D:/work_code/stm32f4xx_tftlcd_update/src/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f
 D:/work_code/stm32f4xx_tftlcd_update/src/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h:
 
 D:/work_code/stm32f4xx_tftlcd_update/src/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h:
-
-D:/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/strings.h:
-
-D:/work_code/stm32f4xx_tftlcd_update/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c:
-
-D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/bsp.c:
-
-D:/work_code/stm32f4xx_tftlcd_update/src/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h:
 
 D:/work_code/stm32f4xx_tftlcd_update/src/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h:
 
@@ -1317,9 +1318,13 @@ D:/work_code/stm32f4xx_tftlcd_update/src/Core/Src/sysmem.c:
 
 D:/work_code/stm32f4xx_tftlcd_update/src/Core/Src/system_stm32f4xx.c:
 
-D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/LCD_RA8875.c:
-
 D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_led.c:
+
+D:/work_code/stm32f4xx_tftlcd_update/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:
+
+D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_ra8875.c:
+
+D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/fonts.h:
 
 D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_tft_lcd.c:
 
@@ -1336,8 +1341,6 @@ D:/work_code/stm32f4xx_tftlcd_update/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f
 D:/work_code/stm32f4xx_tftlcd_update/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c:
 
 D:/work_code/stm32f4xx_tftlcd_update/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c:
-
-D:/work_code/stm32f4xx_tftlcd_update/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:
 
 D:/work_code/stm32f4xx_tftlcd_update/src/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:
 

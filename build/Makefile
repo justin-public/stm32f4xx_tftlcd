@@ -282,30 +282,6 @@ src/Core/Startup/startup_stm32f407igtx.s.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/build.make CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/Startup/startup_stm32f407igtx.s.obj
 .PHONY : src/Core/Startup/startup_stm32f407igtx.s.obj
 
-src/Core/bsp/Src/LCD_RA8875.obj: src/Core/bsp/Src/LCD_RA8875.c.obj
-.PHONY : src/Core/bsp/Src/LCD_RA8875.obj
-
-# target to build an object file
-src/Core/bsp/Src/LCD_RA8875.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/build.make CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.obj
-.PHONY : src/Core/bsp/Src/LCD_RA8875.c.obj
-
-src/Core/bsp/Src/LCD_RA8875.i: src/Core/bsp/Src/LCD_RA8875.c.i
-.PHONY : src/Core/bsp/Src/LCD_RA8875.i
-
-# target to preprocess a source file
-src/Core/bsp/Src/LCD_RA8875.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/build.make CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.i
-.PHONY : src/Core/bsp/Src/LCD_RA8875.c.i
-
-src/Core/bsp/Src/LCD_RA8875.s: src/Core/bsp/Src/LCD_RA8875.c.s
-.PHONY : src/Core/bsp/Src/LCD_RA8875.s
-
-# target to generate assembly for a file
-src/Core/bsp/Src/LCD_RA8875.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/build.make CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.s
-.PHONY : src/Core/bsp/Src/LCD_RA8875.c.s
-
 src/Core/bsp/Src/bsp_led.obj: src/Core/bsp/Src/bsp_led.c.obj
 .PHONY : src/Core/bsp/Src/bsp_led.obj
 
@@ -329,6 +305,30 @@ src/Core/bsp/Src/bsp_led.s: src/Core/bsp/Src/bsp_led.c.s
 src/Core/bsp/Src/bsp_led.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/build.make CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_led.c.s
 .PHONY : src/Core/bsp/Src/bsp_led.c.s
+
+src/Core/bsp/Src/bsp_ra8875.obj: src/Core/bsp/Src/bsp_ra8875.c.obj
+.PHONY : src/Core/bsp/Src/bsp_ra8875.obj
+
+# target to build an object file
+src/Core/bsp/Src/bsp_ra8875.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/build.make CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_ra8875.c.obj
+.PHONY : src/Core/bsp/Src/bsp_ra8875.c.obj
+
+src/Core/bsp/Src/bsp_ra8875.i: src/Core/bsp/Src/bsp_ra8875.c.i
+.PHONY : src/Core/bsp/Src/bsp_ra8875.i
+
+# target to preprocess a source file
+src/Core/bsp/Src/bsp_ra8875.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/build.make CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_ra8875.c.i
+.PHONY : src/Core/bsp/Src/bsp_ra8875.c.i
+
+src/Core/bsp/Src/bsp_ra8875.s: src/Core/bsp/Src/bsp_ra8875.c.s
+.PHONY : src/Core/bsp/Src/bsp_ra8875.s
+
+# target to generate assembly for a file
+src/Core/bsp/Src/bsp_ra8875.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/build.make CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_ra8875.c.s
+.PHONY : src/Core/bsp/Src/bsp_ra8875.c.s
 
 src/Core/bsp/Src/bsp_tft_lcd.obj: src/Core/bsp/Src/bsp_tft_lcd.c.obj
 .PHONY : src/Core/bsp/Src/bsp_tft_lcd.obj
@@ -790,12 +790,12 @@ help:
 	@echo "... src/Core/Src/system_stm32f4xx.i"
 	@echo "... src/Core/Src/system_stm32f4xx.s"
 	@echo "... src/Core/Startup/startup_stm32f407igtx.obj"
-	@echo "... src/Core/bsp/Src/LCD_RA8875.obj"
-	@echo "... src/Core/bsp/Src/LCD_RA8875.i"
-	@echo "... src/Core/bsp/Src/LCD_RA8875.s"
 	@echo "... src/Core/bsp/Src/bsp_led.obj"
 	@echo "... src/Core/bsp/Src/bsp_led.i"
 	@echo "... src/Core/bsp/Src/bsp_led.s"
+	@echo "... src/Core/bsp/Src/bsp_ra8875.obj"
+	@echo "... src/Core/bsp/Src/bsp_ra8875.i"
+	@echo "... src/Core/bsp/Src/bsp_ra8875.s"
 	@echo "... src/Core/bsp/Src/bsp_tft_lcd.obj"
 	@echo "... src/Core/bsp/Src/bsp_tft_lcd.i"
 	@echo "... src/Core/bsp/Src/bsp_tft_lcd.s"

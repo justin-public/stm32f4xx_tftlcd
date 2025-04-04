@@ -12,5 +12,6 @@
 #define LCD_BUSY_GPIO_Port GPIOD
 
 void LCD_InitHard(void);
+void LCD_BackLight_on(void);
 
 #endif

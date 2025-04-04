@@ -37,15 +37,15 @@
 },
 {
   "directory": "D:/work_code/stm32f4xx_tftlcd_update/build",
-  "command": "D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe -DSTM32F407xx -ID:/work_code/stm32f4xx_tftlcd_update/src -ID:/work_code/stm32f4xx_tftlcd_update/src/Core/Inc -ID:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp -ID:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc -ID:/work_code/stm32f4xx_tftlcd_update/src/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/work_code/stm32f4xx_tftlcd_update/src/Drivers/CMSIS/Include -ID:/work_code/stm32f4xx_tftlcd_update/src/Drivers/STM32F4xx_HAL_Driver/Inc -g -std=gnu11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -fdata-sections -ffunction-sections -Wall -O0 -g3 -o CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.obj -c D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/LCD_RA8875.c",
-  "file": "D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/LCD_RA8875.c",
-  "output": "CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.obj"
-},
-{
-  "directory": "D:/work_code/stm32f4xx_tftlcd_update/build",
   "command": "D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe -DSTM32F407xx -ID:/work_code/stm32f4xx_tftlcd_update/src -ID:/work_code/stm32f4xx_tftlcd_update/src/Core/Inc -ID:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp -ID:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc -ID:/work_code/stm32f4xx_tftlcd_update/src/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/work_code/stm32f4xx_tftlcd_update/src/Drivers/CMSIS/Include -ID:/work_code/stm32f4xx_tftlcd_update/src/Drivers/STM32F4xx_HAL_Driver/Inc -g -std=gnu11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -fdata-sections -ffunction-sections -Wall -O0 -g3 -o CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_led.c.obj -c D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_led.c",
   "file": "D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_led.c",
   "output": "CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_led.c.obj"
+},
+{
+  "directory": "D:/work_code/stm32f4xx_tftlcd_update/build",
+  "command": "D:/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe -DSTM32F407xx -ID:/work_code/stm32f4xx_tftlcd_update/src -ID:/work_code/stm32f4xx_tftlcd_update/src/Core/Inc -ID:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp -ID:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc -ID:/work_code/stm32f4xx_tftlcd_update/src/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/work_code/stm32f4xx_tftlcd_update/src/Drivers/CMSIS/Include -ID:/work_code/stm32f4xx_tftlcd_update/src/Drivers/STM32F4xx_HAL_Driver/Inc -g -std=gnu11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -fdata-sections -ffunction-sections -Wall -O0 -g3 -o CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_ra8875.c.obj -c D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_ra8875.c",
+  "file": "D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_ra8875.c",
+  "output": "CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/bsp_ra8875.c.obj"
 },
 {
   "directory": "D:/work_code/stm32f4xx_tftlcd_update/build",

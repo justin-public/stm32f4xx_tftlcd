@@ -138,3 +138,41 @@ void bsp_DelayMS(uint32_t n)
     }
 
 }
+
+void bsp_DelayUS(uint32_t n)
+{
+    uint32_t ticks;
+    uint32_t told;
+    uint32_t tnow;
+    uint32_t tcnt = 0;
+    uint32_t reload;
+
+    reload = SysTick->LOAD;
+    ticks = n * (SystemCoreClock / 1000000);
+
+    tcnt = 0;
+    told = SysTick->VAL;
+
+    while (1)
+    {
+        /* code */
+        tnow = SysTick->VAL;
+        if (tnow != told)
+        {
+            if (tnow < told)
+            {
+                tcnt += told - tnow;    
+            }
+            else
+            {
+                tcnt += reload - tnow + told;
+            }
+            told = tnow;
+            if (tcnt >= ticks)
+            {
+                break;
+            }
+        }
+    }
+    
+}

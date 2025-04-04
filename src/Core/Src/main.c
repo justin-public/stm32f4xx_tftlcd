@@ -19,7 +19,10 @@
 /* Includes ------------------------------------------------------------------*/
 #include "bsp.h"
 
+uint8_t Brightness_level;
+
 void SystemClock_Config(void);
+static void MX_GPIO_Init(void);
 
 /**
   * @brief  The application entry point.
@@ -30,15 +33,51 @@ int main(void)
   HAL_Init();
   SystemClock_Config();
   bsp_Init();
-
+  MX_GPIO_Init();       // key test
   LCD_InitHard();
+  #if 0
+  PWM1_enable();
+  PWM1_fnuction_sel();
+  PWM1_clock_ratio(0x02); //bit0~3  58KHZ 
+  PWM1_duty_cycle(0xff); 
+  Brightness_level=10;
+  #endif
+  LCD_Clear(0x001f);
+  LCD_BackLight_on();
+#if 0
+  #if 1
+  Touch_Panel_Interrupt_Enable();
+  TP_auto_mode();
+  LCD_CmdWrite(0x71);//set TP sample time  & ADC clock 
+  LCD_DataWrite(0x04);//
+	LCD_CmdWrite(0x70);//set TP sample time  & ADC clock 
+	//LCD_DataWrite(0xb3);//
+	LCD_DataWrite(0xc3);//
+  Enable_TP();
+  #endif
+#endif
 
   while (1)
   {
-    bsp_LedOn(1);
-    bsp_DelayMS(500);
-    bsp_LedOff(1);
-    bsp_DelayMS(500);
+    if (!HAL_GPIO_ReadPin(GPIOI, GPIO_PIN_8)){
+      LCD_Clear(0x001f);
+      LCD_DisplayStringLine(Line0,"STM32 Program",White,Blue);
+      bsp_DelayMS(1000);
+      LCD_DisplayStringLine(Line2,"justin Borame",White,Blue);
+      bsp_DelayMS(1000);
+    }
+    if (!HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13)){
+      LCD_Clear(0x07e0);
+      LCD_DisplayStringLine(Line0,"Debug : STLINK-V2",Black,Green);
+      bsp_DelayMS(1000);
+      LCD_DisplayStringLine(Line2,"Compile : CMAKE",Black,Green);
+      bsp_DelayMS(1000);
+    }
+    if (!HAL_GPIO_ReadPin(GPIOI, GPIO_PIN_11)){
+      LCD_Clear(0x07e0);
+      LCD_DisplayStringLine(Line0,"Cortex-M4..",Black,Green);
+      bsp_DelayMS(1000);
+    }
   }  
 }
 
@@ -85,7 +124,29 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
+static void MX_GPIO_Init(void)
+{
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
+  __HAL_RCC_GPIOI_CLK_ENABLE();
+  __HAL_RCC_GPIOC_CLK_ENABLE();
+  __HAL_RCC_GPIOF_CLK_ENABLE();
+  __HAL_RCC_GPIOH_CLK_ENABLE();
+  __HAL_RCC_GPIOA_CLK_ENABLE();
 
+  /*Configure GPIO pins : PI8 PI11 */
+  GPIO_InitStruct.Pin = GPIO_PIN_8|GPIO_PIN_11;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOI, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : PC13 */
+  GPIO_InitStruct.Pin = GPIO_PIN_13;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+
+
+}
 /* USER CODE END 4 */
 
 /**

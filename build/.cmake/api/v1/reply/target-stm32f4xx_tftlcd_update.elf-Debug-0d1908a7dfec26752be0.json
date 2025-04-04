@@ -433,13 +433,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/Core/bsp/Src/LCD_RA8875.c",
+			"path" : "src/Core/bsp/Src/bsp_led.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/Core/bsp/Src/bsp_led.c",
+			"path" : "src/Core/bsp/Src/bsp_ra8875.c",
 			"sourceGroupIndex" : 0
 		},
 		{

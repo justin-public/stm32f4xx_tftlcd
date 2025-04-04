@@ -9,7 +9,7 @@
 #include "bsp_timer.h"
 #include "bsp_tft_lcd.h"
 #include "bsp_led.h"
-#include "LCD_RA8875.h"
+#include "bsp_ra8875.h"
 
 
 #define DISABLE_INT() __disable_irq()

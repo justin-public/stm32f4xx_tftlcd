@@ -20,8 +20,8 @@ set(OLD_GLOB
   "D:/work_code/stm32f4xx_tftlcd_update/src/Core/Src/syscalls.c"
   "D:/work_code/stm32f4xx_tftlcd_update/src/Core/Src/sysmem.c"
   "D:/work_code/stm32f4xx_tftlcd_update/src/Core/Src/system_stm32f4xx.c"
-  "D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/LCD_RA8875.c"
   "D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_led.c"
+  "D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_ra8875.c"
   "D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_tft_lcd.c"
   "D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_timer.c"
   "D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/bsp.c"
@@ -34,8 +34,8 @@ endif()
 # SRC_FILES_RECURSE at CMakeLists.txt:17 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/*.c")
 set(OLD_GLOB
-  "D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/LCD_RA8875.c"
   "D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_led.c"
+  "D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_ra8875.c"
   "D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_tft_lcd.c"
   "D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_timer.c"
   "D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/bsp.c"
@@ -48,8 +48,8 @@ endif()
 # SRC_FILES_RECURSE at CMakeLists.txt:17 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/*.c")
 set(OLD_GLOB
-  "D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/LCD_RA8875.c"
   "D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_led.c"
+  "D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_ra8875.c"
   "D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_tft_lcd.c"
   "D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Src/bsp_timer.c"
   )

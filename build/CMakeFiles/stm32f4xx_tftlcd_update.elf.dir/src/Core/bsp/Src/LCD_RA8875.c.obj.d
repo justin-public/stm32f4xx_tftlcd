@@ -68,4 +68,5 @@ CMakeFiles/stm32f4xx_tftlcd_update.elf.dir/src/Core/bsp/Src/LCD_RA8875.c.obj: \
  D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_timer.h \
  D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_tft_lcd.h \
  D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_led.h \
- D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/LCD_RA8875.h
+ D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/LCD_RA8875.h \
+ D:/work_code/stm32f4xx_tftlcd_update/src/Core/bsp/Inc/bsp_ra8875_port.h

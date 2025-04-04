@@ -20,5 +20,6 @@ typedef struct
 
 void bsp_InitTimer(void);
 void bsp_DelayMS(uint32_t n);
+void bsp_DelayUS(uint32_t n);
 
 #endif
